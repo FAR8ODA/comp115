@@ -189,7 +189,7 @@ def draw_concentric_circles(num_circles):
     radius_increase = 5
     pen = turtle.Turtle()
     pen.speed(5)
-    pen.up()
+    #pen.up()
     for _ in range(num_circles):  
         pen.circle(radius)  
         pen.up()
